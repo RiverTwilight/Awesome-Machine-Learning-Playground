@@ -2,9 +2,11 @@
 
 [Rene Wang](https://rene.wang)
 
-[[`Blog`]()] [[`Project`](https://segment-anything.com/)] [[`Demo`](https://segment-anything.com/demo)] 
+[[`Blog`]()] [[`Project`](https://segment-anything.com/)] [[`Demo`](https://segment-anything.com/demo)]
 
 This model can perfectly detect translated, not-centerd hand-written digits, with no framework needed.
+
+<a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 <p float="left">
   <img src="assets/multilayer.jpg?raw=true" width="37.25%" />
@@ -29,4 +31,3 @@ The model is licensed under the [Apache 2.0 license](LICENSE).
 ## Contributing
 
 See [contributing](CONTRIBUTING.md) and the [code of conduct](CODE_OF_CONDUCT.md).
-
