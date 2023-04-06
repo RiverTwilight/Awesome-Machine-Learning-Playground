@@ -1,0 +1,4 @@
+numpy
+matplotlib
+colorama
+google.colab
