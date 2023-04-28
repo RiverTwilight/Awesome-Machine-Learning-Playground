@@ -1,22 +1,22 @@
-# Neural Network Playground
+# Awesome Machine Learning Playground
 
 [Rene Wang](https://rene.wang)
 
 [[`Blog`]()] [[`Project`](https://segment-anything.com/)] [[`Demo`](https://segment-anything.com/demo)]
 
-This model can perfectly detect translated, not-centerd hand-written digits, with no framework needed.
+This repo includes three models. Each model has all basic knowledge you should know of that sub-fields of machine learning. No framework used.
 
-<a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
-
-<p float="left">
-  <img src="assets/multilayer.jpg?raw=true" width="37.25%" />
-</p>
+|             Model             | Field |                                                                                              Try                                                                                              |
+| :---------------------------: | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| Hand-written digits detection |  DL   | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+|   Natural language classify   |  NLL  | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+|        game-controller        |  RDL  | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
 ## Run on Local
 
-The code requires `python>=3.8`. PyTorch or other framework are not needed
+The code requires `python>=3.8`. PyTorch or other framework are not needed.
 
-```
+```shell
 py -m venv Env
 ./Env/Scripts/activate
 pip install -r requirements.txt
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ## License
 
-The model is licensed under the [Apache 2.0 license](LICENSE).
+The repo is licensed under the [Apache 2.0 license](LICENSE).
 
 ## Contributing
 
