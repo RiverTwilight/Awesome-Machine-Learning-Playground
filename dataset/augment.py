@@ -3,11 +3,24 @@ import random
 from PIL import Image, ImageOps
 
 def augment_image(image, rotation_angle, translate_x, translate_y, fill_color=(255, 255, 255)):
-    rotated_image = image.rotate(rotation_angle, fillcolor=fill_color)
-    translated_image = ImageOps.expand(rotated_image, border=max(abs(translate_x), abs(translate_y)), fill=fill_color)
-    translated_image = translated_image.transform(translated_image.size, Image.AFFINE, (1, 0, translate_x, 0, 1, translate_y))
-    cropped_image = translated_image.crop((0, 0, image.size[0], image.size[1]))
-    return cropped_image
+    choice = random.choice(['rotate', 'translate'])
+
+    if choice == 'rotate':
+        rotated_image = image.rotate(rotation_angle, fillcolor=fill_color)
+        return rotated_image
+
+    if choice == 'translate':
+        expanded_image = ImageOps.expand(image, border=max(abs(translate_x), abs(translate_y)), fill=fill_color)
+        translated_image = expanded_image.transform(expanded_image.size, Image.AFFINE, (1, 0, translate_x, 0, 1, translate_y))
+        
+        left = max(0, -translate_x)
+        upper = max(0, -translate_y)
+        right = left + image.size[0]
+        lower = upper + image.size[1]
+
+        cropped_image = translated_image.crop((left, upper, right, lower))
+        return cropped_image
+
 
 train_data_path = "./train"
 test_data_path = "./test"
@@ -36,4 +49,4 @@ def read_file(input_path, output_path, output_bundle_size):
 
                     augmented_image.save(f'{output_path}\{foldername}_{i}\{file_name}')
 
-read_file(input_path=train_data_path, output_path=augment_train_path, output_bundle_size=5)
+read_file(input_path=test_data_path, output_path=augment_test_path, output_bundle_size=5)
