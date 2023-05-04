@@ -1,4 +1,5 @@
 numpy
 matplotlib
 colorama
-google.colab
+jupyter
+ipykernel

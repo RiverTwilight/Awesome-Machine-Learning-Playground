@@ -10,7 +10,12 @@ This repo includes three models. Each model has all basic knowledge you should k
 | :---------------------------: | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Hand-written digits detection |  DL   | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 |   Natural language classify   |  NLL  | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-|        game-controller        |  RDL  | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+|        game-controller        |  RDL  |                                                                                          Run Locally                                                                                          |
+|        Drone Dogfight         |  RDL  |                                                                                                                                                                                               |
+
+## Before You Go
+
+TODO
 
 ## Run on Local
 
