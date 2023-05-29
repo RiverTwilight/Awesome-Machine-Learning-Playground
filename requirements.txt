@@ -2,4 +2,5 @@ numpy
 matplotlib
 colorama
 jupyter
+jupyterlab
 ipykernel

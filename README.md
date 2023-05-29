@@ -2,9 +2,9 @@
 
 [Rene Wang](https://rene.wang)
 
-[[`Blog`]()] [[`Project`](https://segment-anything.com/)] [[`Demo`](https://segment-anything.com/demo)]
+[[`Blog`](https://rene.wang/)] [[`Project`](https://ai.rene.wang/)] [[`Demo`](https://segment-anything.com/demo)]
 
-This repo includes three models. Each model has all basic knowledge you should know of that sub-fields of machine learning. No framework used.
+This repo includes some models. Each model has all basic knowledge you should know of that sub-fields of machine learning. No framework used, no ads, totally free.
 
 |             Model             | Field |                                                                                              Try                                                                                              |
 | :---------------------------: | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -25,6 +25,8 @@ The code requires `python>=3.8`. PyTorch or other framework are not needed.
 py -m venv Env
 ./Env/Scripts/activate
 pip install -r requirements.txt
+# or
+py -m pip install -r requirements.txt
 ```
 
 ## <a name="GettingStarted"></a>Getting Started
