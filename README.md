@@ -6,16 +6,24 @@
 
 This repo includes some models. Each model has all basic knowledge you should know of that sub-fields of machine learning. No framework used, no ads, totally free.
 
-|             Model             | Field |                                                                                              Try                                                                                              |
+Once finish all models, you'll get full basic knowledgement of machine learning and should read paper more easily.
+
+
+|             Model             | What you'll learn |                                                                                              Try                                                                                              |
 | :---------------------------: | :---: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Hand-written digits detection |  DL   | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-|   Natural language classify   |  NLL  | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Hand-written digits detection |  DL, Neural Network   | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+|   Natural language classify   |  NLP, Neural Network  | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+|   Pixel_Sprite_Generation   |  Stable Diffusion, RNN  | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 |        game-controller        |  RDL  |                                                                                          Run Locally                                                                                          |
 |        Drone Dogfight         |  RDL  |                                                                                                                                                                                               |
 
 ## Before You Go
 
-TODO
+Make sure you have these ability:
+
+* Basic python programming experience
+* Basic understand of Advanced Math
+* Basic English reading skill
 
 ## Run on Local
 
