@@ -4,25 +4,26 @@ By [Rene Wang](https://rene.wang)
 
 [[`Blog`](https://rene.wang/)] [[`Project`](https://ai.rene.wang/)] [[`Demo`](https://segment-anything.com/demo)]
 
-This repo includes some ML projects. Each project has all basic knowledge you should know of that sub-fields of machine learning. No framework used, no ads, totally free.
+This repository contains various machine learning projects, each focusing on fundamental concepts within different subfields of machine learning. The projects are framework-agnostic and are available for free, with no ads.
 
-Once finish all models, you'll get full basic knowledgement of machine learning and should read paper more easily.
+Upon completing all the projects, you'll gain a solid foundation in machine learning, making it easier to dive into research papers.
+
 
 |             Model             |   What you'll learn    |                                                                                              Get Start                                                                                              |
 | :---------------------------: | :--------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | Hand-written digits detection | DL, Neural Network, GA | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| SMS Filter & Text Generation  |  NLP, Neural Network   | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-|    Pixel_Sprite_Generation    | ControlNet, Stable Diffusion, RNN  | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |                                                                                        |
+| SMS Filter & Text Generation  |  NLP, Neural Network   | <a href="https://colab.research.google.com/drive/12ylRxbXYiuZqODUKW3yrBHGwXU9MLp0s?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+|    🚧 Pixel_Sprite_Generation    | ControlNet, Stable Diffusion, RNN  | <a href="https://colab.research.google.com/drive/1AwXDxpAZLudLPWYWdkqBMZXWdAagnmYt?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |                                                                                        |
 |        Drone Dogfight         |          RDL           |                                                                                          Run Locally                                                                                          |
 
-## Before You Go
+## Prerequisites:
 
-Make sure you have these ability:
+This repo is not a beginner guide. Make sure you meet these requirements:
 
-- Have a Google account
--   Basic python programming experience
--   Basic understand of Advanced Math
--   Basic English reading skill
+- A Google account (to run the notebooks in Google Colab)
+- Basic Python programming experience
+- A foundational understanding of advanced mathematics
+- Basic proficiency in English reading
 
 ## Run on Local
 
