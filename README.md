@@ -8,23 +8,49 @@ This repository contains various machine learning projects, each focusing on fun
 
 Upon completing all the projects, you'll gain a solid foundation in machine learning, making it easier to dive into research papers.
 
+## Learning Path
 
-|             Model             |   What you'll learn    |                                                                                              Get Start                                                                                              |
-| :---------------------------: | :--------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| Hand-written digits detection | DL, Neural Network, GA | <a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| SMS Filter & Text Generation  |  NLP, Neural Network   | <a href="https://colab.research.google.com/drive/12ylRxbXYiuZqODUKW3yrBHGwXU9MLp0s?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-| Obstacle Avoidance  | APF, RL   | <a href="https://colab.research.google.com/drive/16ordFNqghVnzfQwFEMR9e_uxYMgnF5v3?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
-|    🚧 Pixel_Sprite_Generation    | ControlNet, Stable Diffusion, RNN  | <a href="https://colab.research.google.com/drive/1AwXDxpAZLudLPWYWdkqBMZXWdAagnmYt?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |                                                                                        |
-|        Drone Dogfight         |          RDL           |                                                                                          Run Locally                                                                                          |
+### 1. Traveling Salesman Problem
+
+<a href="https://colab.research.google.com/drive/1wz3d35tvCuqEtgGuWeNkJiXBlCvGUnCv?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+### 2. Hand-written Digits Detection
+
+Learn deep learning fundamentals, neural network architecture, and genetic algorithms through implementing a digits recognition system.
+
+<a href="https://colab.research.google.com/drive/18B-Fujnr7uDhfyERZzWHTI3-31anw5OH?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+### 3. SMS Filter & Text Generation
+
+Explore Natural Language Processing and neural networks by building a spam filter and text generation model.
+
+<a href="https://colab.research.google.com/drive/12ylRxbXYiuZqODUKW3yrBHGwXU9MLp0s?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+### 4. Obstacle Avoidance
+
+Implement Artificial Potential Field (APF) and Reinforcement Learning for autonomous navigation.
+
+<a href="https://colab.research.google.com/drive/16ordFNqghVnzfQwFEMR9e_uxYMgnF5v3?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+### 5. Pixel Sprite Generation
+
+Generate pixel art using ControlNet, Stable Diffusion, and Recurrent Neural Networks.
+
+<a href="https://colab.research.google.com/drive/1AwXDxpAZLudLPWYWdkqBMZXWdAagnmYt?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
+
+### 5. Drone Dogfight
+
+Apply Reinforcement Learning for Drones (RDL) in a simulated combat environment.
+(Run Locally)
 
 ## Prerequisites:
 
 This repo is not a beginner guide. Make sure you meet these requirements:
 
-- A Google account (to run the notebooks in Google Colab)
-- Basic Python programming experience
-- A foundational understanding of advanced mathematics
-- Basic proficiency in English reading
+-   A Google account (to run the notebooks in Google Colab)
+-   Basic Python programming experience
+-   A foundational understanding of advanced mathematics
+-   Basic proficiency in English reading
 
 ## Run on Local
 
